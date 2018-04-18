@@ -1,0 +1,24 @@
+[
+    {
+        "model": "laundry_master",
+        "data": {
+            "id": "1",
+            "laundry_code":"KWT0001",
+            "laundry_name_en":"smart clean",
+            "laundry_name_ar":"نظيف الذكية",
+            "country_id":"1",
+            "owner_name":"Dinesh Kumar",
+            "mobile":"8567654345",
+            "alt_mobile":"8787654345",
+            "email_id":"dk1.noida@gmail.com",
+            "area_id":"1",
+            "laundry_logo":"",
+            "contract_start_date":"2018-04-05 00:00:00",
+            "contract_end_date":"2020-05-06 00:00:00",
+            "address":"al hamra building kuwait",
+            "description":"this laundry is created through seed",
+            "is_deleted":"0"
+        }
+    }    
+    
+]

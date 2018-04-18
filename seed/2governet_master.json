@@ -1,0 +1,182 @@
+[
+    {
+        "model": "governorates",
+        "data": {
+            "id": 1,
+            "name": "Al Asimah ",
+            "language_id": 1,
+            "latitude": "29.3342457",
+            "longitude": "47.98121519999995",
+            "description": "Kuwait City",
+            "country_id": 1,
+            "parent" : 1,
+            "status": "active",            
+            "is_deleted": 0
+        }
+    },
+    {
+        "model": "governorates",
+        "data": {
+            "id": 2,
+            "name": " العاصمة‎",
+            "language_id": 2,
+            "latitude": "29.3342457",
+            "longitude": "47.98121519999995",
+            "description": "مدينة الكويت",
+            "country_id": 1,
+            "parent" : 1,
+            "status": "active",
+            "is_deleted": 0
+        }
+    },
+    {
+        "model": "governorates",
+        "data": {
+            "id": 3,
+            "name": "Mubarak Al-Kabeer ",
+            "language_id": 1,
+            "latitude": "48.077484700000014",
+            "longitude": "29.2052505",
+            "description": "mubarak al- kabeer ",
+            "country_id": 1,
+            "parent" : 3,
+            "status": "active",
+            "is_deleted": 0
+        }
+    },
+    {
+        "model": "governorates",
+        "data": {
+            "id": 4,
+            "name": " مبارك الكبير‎ ",
+            "language_id": 2,
+            "latitude": "48.077484700000014",
+            "longitude": "29.2052505",
+            "description": "",
+            "country_id": 1,
+            "parent" : 3,
+            "status": "active",
+            "is_deleted": 0
+        }
+    },
+    {
+        "model": "governorates",
+        "data": {
+            "id": 5,
+            "name": "Farwaniya ",
+            "language_id": 1,
+            "latitude": "47.960251799999924",
+            "longitude": "29.281596",
+            "description": "",
+            "country_id": 1,
+            "parent" : 5,
+            "status": "active",
+            "is_deleted": 0
+        }
+    },
+    {
+        "model": "governorates",
+        "data": {
+            "id": 6,
+            "name": " الفروانية‎",
+            "language_id": 2,
+            "latitude": "47.960251799999924",
+            "longitude": "29.281596",
+            "description": "",
+            "country_id": 1,
+            "parent" : 5,
+            "status": "active",
+            "is_deleted": 0
+        }
+    },
+    {
+        "model": "governorates",
+        "data": {
+            "id": 7,
+            "name": "Al-Ahmadi ",
+            "language_id": 1,
+            "latitude": "48.001028200000064",
+            "longitude": "28.8269885",
+            "description": "",
+            "country_id": 1,
+            "parent" : 7,
+            "status": "active",
+            "is_deleted": 0
+        }
+    },
+    {
+        "model": "governorates",
+        "data": {
+            "id": 8,
+            "name": " الاحمدي‎",
+            "language_id": 2,
+            "latitude": "48.001028200000064",
+            "longitude": "28.8269885",
+            "description": "",
+            "country_id": 1,
+            "parent" : 7,
+            "status": "active",
+            "is_deleted": 0
+        }
+    },
+    {
+        "model": "governorates",
+        "data": {
+            "id": 9,
+            "name": "Hawally ",
+            "language_id": 1,
+            "latitude": "29.3332984",
+            "longitude": "48.015892699999995",
+            "description": "",
+            "country_id": 1,
+            "parent" : 9,
+            "status": "active",
+            "is_deleted": 0
+        }
+    },
+    {
+        "model": "governorates",
+        "data": {
+            "id": 10,
+            "name": " حولي ",
+            "language_id": 2,
+            "latitude": "29.3332984",
+            "longitude": "48.015892699999995",
+            "description": "",
+            "country_id": 1,
+            "parent" : 9,
+            "status": "active",
+            "is_deleted": 0
+        }
+    },
+    {
+        "model": "governorates",
+        "data": {
+            "id": 11,
+            "name": " الجهراء",
+            "language_id": 2,
+            "latitude": "47.67552909999995",
+            "longitude": "29.3365728",
+            "description": "",
+            "country_id": 1,
+            "parent" : 11,
+            "status": "active",
+            "is_deleted": 0
+        }
+    },
+    {
+        "model": "governorates",
+        "data": {
+            "id": 12,
+            "name": " Jahra ",
+            "language_id": 1,
+            "latitude": "47.67552909999995",
+            "longitude": "29.3365728",
+            "description": "",
+            "country_id": 1,
+            "parent" : 11,
+            "status": "active",
+            "is_deleted": 0
+        }
+    }
+]

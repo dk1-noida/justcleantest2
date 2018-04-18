@@ -1,0 +1,93 @@
+[
+    {
+        "model": "areas",
+        "data": {
+            "id": 1,
+            "name": "Abbasiya",
+            "latitude": 29.257,
+            "longitude": 47.9368,
+            "status": "Active",            
+            "description": "",
+            "language_id": 1,        
+            "parrent" : 0,    
+            "governet_id": 1,            
+            "is_deleted": 0
+        }
+    },
+    {
+        "model": "areas",
+        "data": {
+            "id": 2,
+            "name": "العباسية",
+            "latitude": 29.257,
+            "longitude": 47.9368,
+            "status": "Inactive",            
+            "description": "",
+            "language_id": 2,            
+            "parrent" : 1,
+            "governet_id": 1,
+            "is_deleted": 0
+        }
+    },
+    {
+        "model": "areas",
+        "data": {
+            "id": 3,
+            "name": "Washington, DC, United States",
+            "latitude": 0,
+            "longitude": 0,
+            "status": "Active",            
+            "description": "",
+            "language_id": 1,            
+            "parrent" : 0,
+            "governet_id": 1,
+            "is_deleted": 0
+        }
+    },
+    {
+        "model": "areas",
+        "data": {
+            "id": 4,
+            "name": "واشنطن, الولايات المتحدة",
+            "latitude": 0,
+            "longitude": 0,
+            "status": "Inactive",            
+            "description": "",
+            "language_id": 2,
+            "parrent" : 1,
+            "governet_id": 1,
+            "is_deleted": 0
+        }
+    },
+    {
+        "model": "areas",
+        "data": {
+            "id": 5,
+            "name": "Nikol, Ahmedabad, Gujarat, India",
+            "latitude": 0,
+            "longitude": 0,
+            "status": "Active",            
+            "description": "",
+            "language_id": 1, 
+            "parrent" : 0,           
+            "governet_id": 1,
+            "is_deleted": 0
+        }
+    },
+    {
+        "model": "areas",
+        "data": {
+            "id": 6,
+            "name": "Navrangpura, Ahmedabad, Gujarat, India",
+            "latitude": 0,
+            "longitude": 0,
+            "status": "Active",            
+            "description": "",
+            "language_id": 1,   
+            "parrent" : 0,        
+            "governet_id": 1,
+            "is_deleted": 0
+        }
+    }
+   
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "model": "countries",
+        "data": {
+            "id": 1,
+            "name": "Kuwait",
+            "country_code": "KWT",            
+            "language_id": 1,
+            "logo" : "http://localhost:5000/images/logo.png",
+            "isd_code": "965",
+            "currency": "KD",
+            "currency_decimal": 3,
+            "tax" : "0.00",
+            "parent" : 1,
+            "status": "Active",            
+            "is_deleted":0
+        }
+    },
+    {
+        "model": "countries",
+        "data": {
+            "id": 2,
+            "name": "الكويت",
+            "country_code": "KWT",            
+            "language_id": 2,
+            "logo" : "http://localhost:5000/images/logo.png",
+            "isd_code": "965",
+            "currency": "د.ك",
+            "currency_decimal": 3,
+            "tax" : "0.00",
+            "parent" : 1,
+            "status": "Active",           
+            "is_deleted":0
+        }
+    }
+]

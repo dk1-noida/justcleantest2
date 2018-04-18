@@ -1,0 +1,22 @@
+{
+    "project_name": "Masbagti UAT",
+    "version": "v2",
+    "base_url": "http://localhost",
+    "dev_port": ":5000",        
+    "client_url": "https://localhost/",
+    "secret_key": "secr@tk@y",
+    "token_expiry_time": "10h",
+    "db": {
+            "host": "localhost",
+            "user": "root",
+            "pass": "asdf.4321A",
+            "name": "test_db",
+            "dialect": "mysql"
+    },
+    "smtp": {
+            "service": "Gmail",
+            "email": "",
+            "password": "",
+            "email_label": "Masbagti"
+    }       
+}

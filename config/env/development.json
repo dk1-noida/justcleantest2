@@ -1,0 +1,35 @@
+{
+    "project_name": "Masbagti",
+    "version": "v2",
+    "base_url": "http://localhost",
+    "dev_port": ":5000",    
+    "client_url": "https://localhost/",
+    "secret_key": "secr@tk@y",
+    "token_expiry_time": "10h",
+    "db": {
+            "host": "localhost",
+            "user": "root",
+            "pass": "root",
+            "name": "test_db",
+            "dialect": "mysql"
+    },
+    "smtp": {
+            "service": "Gmail",
+            "email": "",
+            "password": "",
+            "email_label": "Masbagti"
+    },
+    "facebook": {
+      "clientID": "####devconfig#####",
+      "clientSecret": "######devconfig#####",
+      "callbackURL": "#######devconfig#############"
+    },
+    "google": {
+      "clientID": "##########devconfig######",
+      "clientSecret": "#######devconfig###########",
+      "callbackURL": "##########devconfig###########"
+    },
+    "notification": {
+      "serverkey": "AIzaSyDdoSbH9lvUIAqwab49JUfv20LLi02inLM"
+    }
+}

@@ -1,0 +1,31 @@
+{
+	"project_name" : "Justclean Developer Staging",
+	"version" : "v1",
+	"base_url" : "http://35.154.48.201/",
+	"ws_url" : "http://35.154.48.201/app.php/ws",
+	"client_url" : "http://35.154.48.201/",
+	"secret_key":"secr@tk@y",
+	"token_expiry_time":"10h",
+	"db":{
+		"host":"35.154.48.201",
+		"user":"experion",
+		"pass":"experion123",
+		"name":"masbagti_db",
+		"dialect":"mysql"
+	},
+	"smtp": {
+	    "service": "Gmail",
+	    "email": "",
+	    "password": "",
+	    "email_label": "Justclean"
+	},
+	"tookan": {
+		"api_key": "d3ecede209fe24758b9a6be63728fe202f6a499ec69a3f83b134c60b818629c0",
+		"access_token": "5fdc8437cc0607554568e2e130be525c"
+	},
+	"tookan_url": {
+		"create_multiple_task": "https://api.tookanapp.com/create_multiple_tasks",
+		"delete_task": "https://api.tookanapp.com/delete_job",
+		"update_task": "https://api.tookanapp.com/update_task_via_dashboard"
+	}
+}

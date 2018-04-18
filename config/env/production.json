@@ -1,0 +1,38 @@
+{
+	"project_name" : "JustClean Production",
+	"version" : "v1",
+	"base_url" : "http://localhost/",
+	"ws_url" : "http://localhost:8080/app.php/ws",
+	"client_url" : "http://localhost/",
+	"secret_key":"secr@tk@y",
+	"token_expiry_time":"10h",
+	"db":{
+		"host":"justclean-db-instance.cieir0vnybac.eu-west-1.rds.amazonaws.com",
+		"user":"just_db_admin",
+		"pass":"Exp.407Just#*123",
+		"name":"justcleandb",
+		"dialect":"mysql",
+		"port":3306
+	},
+	"smtp": {
+	    "service": "Gmail",
+	    "email": "",
+	    "password": "",
+	    "email_label": "JustClean"
+	},
+	"tookan": {
+		"api_key": "d3ecede209fe24758b9a6be63728fe202f6a499ec69a3f83b134c60b818629c0",
+		"access_token": "5fdc8437cc0607554568e2e130be525c"
+	},
+	"tookan_url": {
+		"create_multiple_task": "https://api.tookanapp.com/create_multiple_tasks",
+		"delete_task": "https://api.tookanapp.com/delete_job",
+		"update_task": "https://api.tookanapp.com/update_task_via_dashboard"
+	},
+	"aws":{
+		"accessKeyId":"",
+		"secretAccessKey":"",
+		"region":"",
+		"apiVersions":
+	}
+}

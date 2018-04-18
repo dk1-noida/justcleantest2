@@ -1,0 +1,34 @@
+[
+    {
+        "model": "laundry_branch",
+        "data": {
+            "id": "1",
+            "branch_code":"BKWT00121",
+            "laundry_id":"1",
+            "branch_name_en":"Smart Name",
+            "branch_name_ar":"Smart Name Ar",
+            "branch_manager_name":"Dinesh Gautam",
+            "mobile":"8787654345",
+            "email_id":"branch@gmail.com",
+            "no_of_drivers":"3",
+            "governorate_id":"3",
+            "area_id":"2",
+            "lat":"1.00032",
+            "long":"2.0023",
+            "address":"",
+            "spcl_service_type":"1",
+            "jc_premium":"10",
+            "min_order_amount":"3",
+            "fast_turn_around":"12",
+            "normal_turn_around":"24",
+            "premium_turn_around":"20",
+            "laundry_rating":"5",
+            "created_by":"1",
+            "start_time":"09:00",
+            "end_time":"20:00",
+            "is_active":1,
+            "is_deleted":0
+            
+        }
+    }    
+]

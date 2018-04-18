@@ -1,0 +1,21 @@
+[
+    {
+        "model": "users",
+        "data": {
+            "id": 1,
+            "firstname":"Noorul",
+            "lastname":"ameen",
+            "phone":"22222222",
+            "email":"ameen3388@gmail.com",
+            "token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSfdsfdsf",
+            "username":"test",
+            "image_path":"https://s3-eu-west-1.amazonaws.com/justcleantest/b7fab6192bb344a2823e02924adc4129.jpeg",
+            "user_status" : "Active",
+            "user_type":"user",
+            "language_id":"1",
+            "giftcard_balance_amount":0,            
+            "password":"72ea9b10ad081b41a57c4982649ee7fd"
+        }
+
+    }
+]
