@@ -3,10 +3,10 @@
         "model": "users",
         "data": {
             "id": 1,
-            "firstname":"Noorul",
-            "lastname":"ameen",
+            "firstname":"Dinesh",
+            "lastname":"kumar",
             "phone":"22222222",
-            "email":"ameen3388@gmail.com",
+            "email":"dinesh@gmail.com",
             "token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSfdsfdsf",
             "username":"test",
             "image_path":"https://s3-eu-west-1.amazonaws.com/justcleantest/b7fab6192bb344a2823e02924adc4129.jpeg",

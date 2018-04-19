@@ -9,7 +9,7 @@
     "db": {
             "host": "localhost",
             "user": "root",
-            "pass": "root",
+            "pass": "dinesh123",
             "name": "test_db",
             "dialect": "mysql"
     },

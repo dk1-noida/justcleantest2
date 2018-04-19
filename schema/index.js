@@ -1,23 +1,25 @@
 "use strict";
 
-var fs        = require("fs");
-var path      = require("path");
-var Sequelize = require("sequelize");
+import fs from "fs";
+import path from "path";
+import Sequelize from "sequelize";
 
-console.log('22222222');
+import config from '../config';
+
+global.__config = config();
 
 // initialize database connection
 var sequelize = new Sequelize(__config.db.name, __config.db.user, __config.db.pass, {
-	host: __config.db.host,
-	port: __config.db.port,
-	dialect: __config.db.dialect,
-	omitNull: false,
+  host: __config.db.host,
+  port: __config.db.port,
+  dialect: __config.db.dialect,
+  omitNull: false,
   alter : true,
   define: {
     collate: 'utf8_general_ci',
     charset:'utf8'
   },
-	logging: true
+  logging: true
 });
 
 var db = {};

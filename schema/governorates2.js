@@ -8,7 +8,11 @@ module.exports = function(sequelize, DataTypes) {
       primaryKey: true,
       autoIncrement: true
     },   
-    name: {
+    name_en: {
+      type: DataTypes.STRING(100),
+      allowNull: false
+    },
+    name_ar: {
       type: DataTypes.STRING(100),
       allowNull: false
     },
@@ -31,11 +35,6 @@ module.exports = function(sequelize, DataTypes) {
     country_id: {
         type: DataTypes.INTEGER(5),
         allowNull: true
-    },
-    parent: {
-      type: DataTypes.INTEGER(11),
-      allowNull: false,      
-      defaultValue : 0
     },
     status: {
       type: DataTypes.ENUM('active','inactive'),

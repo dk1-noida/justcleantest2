@@ -10,8 +10,8 @@
 
 import db from '../../schema/';
 
-let laundry_master = db.laundry_master;
-let laundry_branch = db.laundry_branch;
+const laundry_master = db.laundry_master;
+const laundry_branch = db.laundry_branch;
 
 module.exports = {
 

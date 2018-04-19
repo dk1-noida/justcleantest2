@@ -1,7 +1,7 @@
 /* jshint indent: 2 */
 
 module.exports = function(sequelize, DataTypes) {
-  return sequelize.define('roles', {
+  return sequelize.define('rating_questions', {
     id: {
       type: DataTypes.INTEGER(11),
       allowNull: false,
@@ -17,8 +17,9 @@ module.exports = function(sequelize, DataTypes) {
       allowNull: false
     },
     status: {
-      type: DataTypes.ENUM('Active','Inactive'),
-      allowNull: false
+      type: DataTypes.ENUM('active','inactive'),
+      allowNull: false,
+      defaultValue : 'active'
     },
     is_deleted: {
       type: DataTypes.INTEGER(4),
@@ -26,7 +27,7 @@ module.exports = function(sequelize, DataTypes) {
       defaultValue : 0
     }
   }, {
-    tableName: 'roles',
+    tableName: 'rating_questions',
     timestamps:true
   });
 };

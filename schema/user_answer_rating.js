@@ -1,7 +1,7 @@
 /* jshint indent: 2 */
 
 module.exports = function(sequelize, DataTypes) {
-  return sequelize.define('roles', {
+  return sequelize.define('rating_answer_rating', {
     id: {
       type: DataTypes.INTEGER(11),
       allowNull: false,
@@ -34,7 +34,7 @@ module.exports = function(sequelize, DataTypes) {
       defaultValue : 0
     }
   }, {
-    tableName: 'roles',
+    tableName: 'rating_answer_rating',
     timestamps:true
   });
 };

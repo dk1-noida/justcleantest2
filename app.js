@@ -8,11 +8,14 @@ import cookieParser from 'cookie-parser';
 import cors from 'cors';
 import compression from 'compression';
 import helmet from 'helmet';
+import global_route from './src/global_route';
+import admin_route from './src/admin_route';
 
 import config from './config';
 
 const app = express();
-global.__config = config();
+
+app.disable('x-powered-by');
 
 // CORS
 app.use(cors());
@@ -22,9 +25,9 @@ app.use(compression());
 app.use(helmet());
 app.use(cookieParser());
 
+app.set("config" , __config);
+global.__base = __dirname;
 
-
-app.disable('x-powered-by');
 
 // View engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -38,13 +41,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 // Routes
-
-app.get("/" , (req , res)=>{  
-  res.render('index.jade', { title: 'Express testing' });    
-});
-
-import routes from './src/admin_route';
-app.use('/admin', routes);
+app.use('/', global_route);
+app.use('/admin', admin_route);
 
 // Catch 404 and forward to error handler
 app.use((req, res, next) => {

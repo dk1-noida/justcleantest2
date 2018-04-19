@@ -1,6 +1,6 @@
 /* jshint indent: 2 */
 
-var customDataTypes = require('../helpers/helper.datatype.timestamp');
+var customDataTypes = require( '../helpers/helper.datatype.timestamp');
 
 module.exports = function(sequelize, DataTypes) {
   return sequelize.define('fcm_users', {
